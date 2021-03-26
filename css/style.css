@@ -1,0 +1,142 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.registration-form{
+    background-image: repeating-linear-gradient(0deg, rgba(25, 208, 33,0.1) 0px, rgba(25, 208, 33,0.1) 1px,transparent 1px, transparent 13px),repeating-linear-gradient(90deg, rgba(25, 208, 33,0.1) 0px, rgba(25, 208, 33,0.1) 1px,transparent 1px, transparent 13px),linear-gradient(90deg, rgb(0,34,70),rgb(71, 224, 241));
+    background-size: cover;
+    height: 100vh;
+    padding: 45px 0px;
+    position: relative;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+.container h1{
+    font-family: 'Sanchez', serif;
+    text-align: center;
+    color: white;
+}
+.overlay{
+    background: rgba(0,0,0,0.3);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0 ;
+    z-index: -1;
+}
+.form-box{
+    display: flex;
+    text-align: center;
+    width: 70%;
+    margin: 0 auto;
+    padding: 35px;
+}
+.form-control{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+    background-color: transparent;
+}
+
+
+.left{
+    width: 100%;
+    background-color: rgb(148, 148, 79);
+    margin-right: 30px;
+    padding: 35px; 
+    background-image: url(../img/img.jpg);
+    background-size: cover;
+    z-index: 999;
+    position: relative;
+}
+.heading {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+.left p{
+    margin-top: 20px;
+    color: white;
+}
+.login-btn{
+    background-color: #0b4881;
+    width: 100%;
+    margin: 8px 0px;
+    color: white;
+    border-radius: 20px;
+    padding: 8px;
+    border: none;
+    outline: none;
+    margin-top: 80px;
+}
+.login-btn:hover{
+    transform: translateY(10px);
+    cursor: pointer;
+    transition: 0.5s;
+}
+.add-button{
+    width: 100%;
+    margin-top: 35px;
+}
+
+.right{
+    width: 100%;
+    background-color: tomato;
+    margin-left: 30px;
+    padding: 35px;
+    z-index: 999;
+    background-image: url(../img/img.jpg);
+    background-size: cover;
+    position: relative;
+}
+.form{
+    margin: 20px;
+}
+form input{
+    display: block;
+    width: 90%;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+input::placeholder{
+    text-align: center;
+    color: white;
+}
+input:focus{
+    text-align: center;
+    color: white;
+}
+.facebook{
+    border-radius: 30px 0 0 30px;
+    padding: 7px 46px;
+    border: none;
+    background: #1a73e8;
+    color: white;
+}
+.facebook:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.google{
+    border-radius: 0 30px 30px 0;
+    padding: 7px 46px;
+    border: none;
+    color: white;
+    background-color: #dc5245;
+}
+.google:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.checkbox input{
+    display: inline-block;
+    margin-bottom: 0;
+    width: auto;
+}
+.checkbox label{
+    color: white;
+}
